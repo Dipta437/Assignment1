@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap') 
-
-* {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap") * {
   margin: 0;
   padding: 0;
 }
@@ -66,32 +64,32 @@
   font-size: 20px;
   margin-top: 20px;
 }
-.categories{
+.categories {
   width: 410px;
   height: 58px;
   font-size: 40px;
   color: #070211;
   font-weight: 600;
 }
-.main-container img{
+.main-container img {
   width: 800px;
   height: 500px;
   margin: auto;
   position: absolute;
   right: 30%;
 }
-.container{
+.container {
   width: 100%;
   max-width: 1320px;
   height: 600px;
   margin: 0 auto;
 }
-.img-container{
+.img-container {
   margin-top: 800px;
   height: auto;
   position: relative;
 }
-.left-text{
+.left-text {
   position: relative;
   top: 378px;
   left: 126px;
@@ -101,7 +99,7 @@
   color: white;
   line-height: 50px;
 }
-.container{
+.container {
   position: absolute;
   top: 0%;
   left: 10%;
@@ -109,7 +107,8 @@
   width: 100%;
   height: 100%;
   background-image: linear-gradient(
-    to right,  rgba(0, 0, 0, 1) 0.5%,
+    to right,
+    rgba(0, 0, 0, 1) 0.5%,
     rgba(0, 0, 0, 0)
   );
   border-top-left-radius: 16px;
@@ -117,7 +116,7 @@
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
 }
-.left-text-paragraph{
+.left-text-paragraph {
   position: relative;
   top: 378px;
   left: 126px;
@@ -127,18 +126,56 @@
   line-height: 5px;
   font-weight: 200;
 }
-.btn{
+.btn {
   color: white;
   background: none;
   border: none;
   width: 103px;
   height: 24px;
 }
-.small-img{
+.small-img {
   width: 300px;
   height: 400px;
   position: absolute;
   top: 50%;
   right: 5%;
   transform: translate(-30%, 120%);
+}
+.date-container {
+  position: relative;
+  width: 100%;
+  max-width: 1320px;
+  height: 480px;
+  margin: 0 auto;
+  top: 1120px;
+  background-color: #7e797921;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.151), white);
+  border-radius: 16px;
+}
+.invitation{
+  margin: 100px 385px;
+}
+.invitation > p {
+  font-size: 32px;
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 15px;
+  transform: translate(0, 100px);
+}
+span {
+  color: #ff0000;
+}
+.btn-primary{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #ff0000;
+  transform: translate(112%, 250%);
+  border: none;
+  
 }
