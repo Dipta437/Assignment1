@@ -152,7 +152,7 @@
   background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.151), white);
   border-radius: 16px;
 }
-.invitation{
+.invitation {
   margin: 100px 385px;
 }
 .invitation > p {
@@ -167,7 +167,7 @@
 span {
   color: #ff0000;
 }
-.btn-primary{
+.btn-primary {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   color: white;
@@ -177,5 +177,48 @@ span {
   background-color: #ff0000;
   transform: translate(112%, 250%);
   border: none;
-  
+}
+.three-div-section {
+  width: 100%;
+  max-width: 1320px;
+  height: 463px;
+  display: flex;
+  gap: 70px;
+  position: relative;
+  transform: translate(60%, 300%);
+}
+.best-offer-div{
+  width: 330px;
+  height: 100%;
+  transform: translate(-150%, 0%);
+}
+.best-offer-div > h5 {
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.best-offer-div > h1{
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+.best-offer-div > p{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #07021183;
+}
+.circle-img-div{
+  width: 330px;
+  height: 100%;
+  transform: translate(-125%, 0%);
+
+}
+.circle-img-div img{
+  padding: 25px;
+  width: 350px;
+  height: 350px;
+  border: 10px solid #ff0000;
+  border-radius: 50%;
 }
