@@ -239,3 +239,66 @@ span {
   color: #07021183;
   line-height: 10px;
 }
+.sales-section-div{
+  width: 100%;
+  max-width: 1070px;
+  height: 260px;
+  position: relative;
+  transform: translate(80%, 550%);
+}
+.sales-offers-section > p{
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: #070211;
+}
+.sales-offers-section > h1{
+  margin-top: 0px;
+  position: absolute;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  transform: translate(-30%, 0);
+}
+.best-offer-deal{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  max-width: 1370px;
+  height: 30px;
+  transform: translate(-36%, 350%);
+}
+.three-img-section{
+  width: 100%;
+  max-width: 1320px;
+  height: 990px;
+  position: relative;
+  transform: translate(25%, 120%);
+}
+.first-img-div img{
+  width: 60%;
+  max-width: 400px;
+  height: 300px;
+  position: relative;
+  z-index: 50;
+  transform: translate(20%, 156%);
+}
+.three-img-section img{
+  width: 100%;
+  height: 15%;
+}
+.third-img-div img{
+  width: 380px;
+  height: 400px;
+  transform: translate(247.2%,1%);
+}
+.off-sale img{
+  width: 220.05px;
+  height: 220.05px;
+  transform: translate(380%, -140%);
+}
+.red-rectangle-img-div> img{
+  width: 1320px;
+  height: 120px;
+  transform: translate(0, -188%);
+}
