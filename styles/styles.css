@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap") * {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap")
+
+* {
   margin: 0;
   padding: 0;
 }
@@ -281,6 +283,7 @@ span {
   height: 300px;
   position: relative;
   z-index: 50;
+  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.342));
   transform: translate(20%, 156%);
 }
 .three-img-section img{
@@ -302,3 +305,180 @@ span {
   height: 120px;
   transform: translate(0, -188%);
 }
+.cart-section{
+  width: 100%;
+  max-width: 1320px;
+  height: 1164px;
+  transform: translate(25%, 100%);
+}
+.best-gifts > p{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: #ff0000;
+}
+.best-gifts > h1{
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+  color: #070211;
+}
+.review-section-div{
+  margin-top: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #070211a6;
+}
+.first-row-cart-imag-section{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.second-row-cart-imag-section{
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter-section{
+  width: 100%;
+  max-width: 1320px;
+  height: 620px;
+  background-color: #f892922c;
+  text-align: center;
+  transform: translate(25%, 200%);
+  border-radius: 16px;
+}
+.email-logo-div > img{
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.newsletter-text> h1{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  color: #070211;
+}
+.newsletter-text> p{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #070211a4;
+}
+.input-section{
+  width: 100%;
+  max-width: 672px;
+  height: 72px;
+  align-items: center;
+  text-align: center;
+  transform: translate(50%, 0);
+}
+label{
+  position: relative;
+}
+.btn-subscribe{
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #ff0000;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 5;
+  bottom: 5;
+  
+}
+input{
+  border-radius: 20px;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 50px;
+}
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  color: white;
+  background-color: #070211;
+  width: 100%;
+  height: 610px;
+  transform: translate(0%, 220%);
+}
+.left-side-text-div{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 60px;
+  margin-top: 0;
+  margin-left: 340px;
+ 
+}
+.right-side-text-div{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 60px;
+  gap: 10;
+  margin-left: 1400px;
+  align-items: center;
+}
+.phone-icon-img>p::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("/images/Call.png") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 5px;
+}
+.wb-icon-img>p::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("/images/Website.png") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 5px;
+}
+.social-icon-div{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  max-width: 330px;
+  width: 70px;
+  margin-left: 880px;
+  margin-top: 120px;
+}
+.social-icon-div> img{
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+.bottom-line{
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 90px;
+}
+.botto-text-div{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 90px;
+}
+.unsubcribe-div{
+  margin-left: 1450px;
+}
+
